@@ -1,6 +1,6 @@
 {
   "name": "hono-rate-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic rate-limiting middleware for the Hono.js web server",
   "main": "dist/index.js",
   "scripts": {
@@ -19,5 +19,8 @@
     "@types/node": "^20.11.25",
     "hono": "^4.0.10",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "redis": "^4.6.13"
   }
 }
