@@ -10,6 +10,9 @@ dependencies:
     version: 4.6.13
 
 devDependencies:
+  '@hono/node-server':
+    specifier: ^1.8.2
+    version: 1.8.2
   '@types/node':
     specifier: ^20.11.25
     version: 20.11.25
@@ -21,6 +24,11 @@ devDependencies:
     version: 5.4.2
 
 packages:
+
+  /@hono/node-server@1.8.2:
+    resolution: {integrity: sha512-h8l2TBLCPHZBUrrkosZ6L5CpBLj6zdESyF4B+zngiCDF7aZFQJ0alVbLx7jn8PCVi9EyoFf8a4hOZFi1tD95EA==}
+    engines: {node: '>=18.14.1'}
+    dev: true
 
   /@redis/bloom@1.2.0(@redis/client@1.5.14):
     resolution: {integrity: sha512-HG2DFjYKbpNmVXsa0keLHp/3leGJz1mjh09f2RLGGLQZzSHpkmZWuwJbAvo3QcRY8p80m5+ZdXZdYOSBLlp7Cg==}

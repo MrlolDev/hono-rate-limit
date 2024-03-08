@@ -1,10 +1,12 @@
 {
   "name": "hono-rate-limit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Basic rate-limiting middleware for the Hono.js web server",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node test/api.mjs"
   },
   "keywords": [
     "hono",
@@ -16,6 +18,7 @@
   "author": "MrlolDev",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@hono/node-server": "^1.8.2",
     "@types/node": "^20.11.25",
     "hono": "^4.0.10",
     "typescript": "^5.4.2"
